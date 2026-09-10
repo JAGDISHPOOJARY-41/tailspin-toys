@@ -46,6 +46,12 @@ ALL UI components MUST use dark theme colors:
 - Use semantic grouping: layout, spacing, colors, typography
 - Keep utility combinations readable and maintainable
 
+## TypeScript and Comments in Astro/CSS Files
+
+- Follow the repository TypeScript formatting conventions in Astro frontmatter and scripts: two-space indentation, single-quoted strings, semicolons, trailing commas in multiline literals, and one logical statement per line.
+- Use comments only for intent, non-obvious browser behavior, or a design constraint. Do not annotate a utility class list by repeating what the classes already express.
+- Update or remove comments when the related styles or behavior change.
+
 ## Modern UI Patterns
 
 - Rounded corners: `rounded-lg`, `rounded-xl`, `rounded-2xl`
